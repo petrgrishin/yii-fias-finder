@@ -4,12 +4,17 @@
   "license": "MIT",
   "require": {
     "php": ">=5.3.0",
-    "yiisoft/yii": "~1.1"
+    "yiisoft/yii": "~1.1",
+    "petrgrishin/yii-fias-entity": "dev-master"
   },
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/petrgrishin/yii-fias-finder.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/petrgrishin/yii-fias-entity.git"
     }
   ],
   "authors": [
