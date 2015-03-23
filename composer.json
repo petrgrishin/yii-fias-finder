@@ -1,0 +1,26 @@
+{
+  "name": "petrgrishin/yii-fias-finder",
+  "description": "Fias finder",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii": "~1.1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/petrgrishin/yii-fias-finder.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Petr Grishin",
+      "email": "petr.grishin@grishini.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PetrGrishin\\Fias\\Finder\\": "src/"
+    }
+  }
+}
